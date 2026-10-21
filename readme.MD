@@ -162,8 +162,6 @@ gpt2-from-scratch/
 └── README.md
 ```
 
-*This is a recommended layout, not a claim that every file already exists in the current repository. Adapt the paths to the actual implementation.*
-
 ## Installation
 
 ### Prerequisites
@@ -176,11 +174,9 @@ gpt2-from-scratch/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<your-repository>.git
-cd <your-repository>
+git clone https://github.com/shriKishan-21/GPT-2-From-Scratch.git
+cd GPT-2-From-Scratch
 ```
-
-Replace the placeholders with the actual GitHub username and repository name.
 
 ### 2. Create a virtual environment
 
@@ -275,11 +271,7 @@ The model learns to predict the next token from the preceding context.
 
 The standard objective is:
 
-\[
-\mathcal{L} =
--\frac{1}{T}\sum_{t=1}^{T}
-\log P(x_t \mid x_{<t})
-\]
+\[\mathcal{L} = -\frac{1}{T}\sum_{t=1}^{T}\log P(x_t \mid x_{<t})\]
 
 where \(x_{<t}\) represents all preceding tokens available to the model at position \(t\).
 
@@ -362,9 +354,7 @@ Recommended metrics include:
 
 For average cross-entropy loss measured in natural logarithms:
 
-\[
-\operatorname{Perplexity} = e^{\mathcal{L}_{\text{validation}}}
-\]
+\[\operatorname{Perplexity} = e^{\mathcal{L}_{\text{validation}}}\]
 
 Compare results using the same dataset split, tokenizer, context length, and evaluation protocol. Perplexity values from different tokenization schemes may not be directly comparable.
 
@@ -468,7 +458,7 @@ Please keep changes focused, document important architectural decisions, and avo
 
 ## License
 
-This project is intended to use the MIT License. Add a `LICENSE` file containing the appropriate license text before distributing the project under that license.
+This project is intended to use the MIT License.
 
 ## Acknowledgments
 
