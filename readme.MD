@@ -1,4 +1,4 @@
-<!-- # GPT-2 From Scratch
+# GPT-2 From Scratch
 
 ### Building a GPT-2-Style Language Model from First Principles
 
@@ -485,4 +485,4 @@ This project is intended to use the MIT License. Add a `LICENSE` file containing
 
 ---
 
-*This project is an educational implementation of a GPT-2-style language model. Architectural completeness, training performance, and equivalence to the original GPT-2 should be established through code verification and reproducible experiments.* -->
+*This project is an educational implementation of a GPT-2-style language model. Architectural completeness, training performance, and equivalence to the original GPT-2 should be established through code verification and reproducible experiments.*
